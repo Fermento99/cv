@@ -1,0 +1,96 @@
+{
+  "name": "Paweł Kajanek",
+  "workTitle": "Frontend Developer",
+  "email": "pk.pawlak99@gmail.com",
+  "summary": "Young guy with passion for live music, sailing, board games and logic puzzles",
+  "profiles": [
+    {
+      "name": "Github",
+      "url": "https://github.com/Fermento99"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/pawel-kajanek/"
+    }
+  ],
+  "work": [
+    {
+      "organization": "STX Next",
+      "position": "Frontend Developer",
+      "startDate": "May 2022",
+      "endDate": "till now",
+      "responsibilities": [
+        "Bug fixing",
+        "Implementing new pages",
+        "Improving existing pages"
+      ],
+      "technologies": [
+        "React.js",
+        "Material UI",
+        "Backbone.js",
+        "jQuery",
+        "Vue"
+      ]
+    },
+    {
+      "organization": "ULAN Software",
+      "position": "Frontend Developer/Intern",
+      "startDate": "September 2021",
+      "endDate": "November 2021",
+      "responsibilities": [
+        "Bug fixing",
+        "Implementing new pages",
+        "Improving existing pages"
+      ],
+      "technologies": [
+        "Vue.js",
+        "jQuery",
+        "PHP"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "Wroclaw University of Technology",
+      "title": "Bachelor",
+      "field": "Algorithmic Computer Science",
+      "score": "5.0",
+      "startDate": "September 2018",
+      "endDate": "February 2022"
+    }
+  ],
+  "technologies": [
+    "TypeScript",
+    "React",
+    "Material UI",
+    "Styled Components",
+    "jQuery",
+    "Git",
+    "Vue",
+    "Tailwind",
+    "Node.js",
+    "MySQL",
+    "MongoDB",
+    "Redux",
+    "SASS",
+    "Python",
+    "Java",
+    "C#",
+    "Kotlin"
+  ],
+  "software": [
+    "Jira",
+    "VSCode",
+    "WebStorm",
+    "Linux",
+    "Windows"
+  ],
+  "hobbies": [
+    "Board games",
+    "Sailing",
+    "Live music",
+    "Bouldering/Rock climbing",
+    "Logic puzzles",
+    "Fantasy/Thriller/Detective Books"
+  ]
+}
