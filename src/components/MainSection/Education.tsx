@@ -1,6 +1,6 @@
 import React from "react";
 import resume from '@/resume.json';
-import Period from "@/Components/Period";
+import Period from "@/components/Period";
 
 export default function Education() {
   const { education } = resume;

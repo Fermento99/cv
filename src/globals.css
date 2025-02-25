@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=League+Spartan:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    * {
+        @apply relative box-border;
+    }
+    body {
+        @apply font-regular;
+    }
+
+    li {
+        @apply list-disc font-techMono;
+    }
+
+    ul {
+        @apply pl-4;
+    }
+
+    h2 {
+        @apply font-bold text-2xl ml-6 mb-2;
+    }
+
+    h3 {
+        @apply text-xl;
+    }
+
+    article {
+        @apply mb-4;
+    }
+
+    section {
+        @apply my-4 print:break-inside-avoid;
+    }
+
+    hr {
+        @apply border-separator-dark -mx-4;
+    }
+}

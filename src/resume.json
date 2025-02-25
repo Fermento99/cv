@@ -20,16 +20,22 @@
       "startDate": "May 2022",
       "endDate": "till now",
       "responsibilities": [
-        "Bug fixing",
-        "Implementing new pages",
-        "Improving existing pages"
+        "Creating form pages with input validation (FE and BE)",
+        "Creating various widgets for data display, preference customization and query applying",
+        "Creating automated tests for UI components",
+        "Fetching and parsing data from API endpoints",
+        "Migrating widgets from Backbone.js to React.js",
+        "Fixing various frontend bugs",
+        "Attending daily standup, retro and review meetings held in English"
       ],
       "technologies": [
         "React.js",
         "Material UI",
-        "Backbone.js",
+        "Highcharts",
+        "CSS",
         "jQuery",
-        "Vue"
+        "Vue",
+        "Cypress"
       ]
     },
     {
@@ -38,9 +44,11 @@
       "startDate": "September 2021",
       "endDate": "November 2021",
       "responsibilities": [
-        "Bug fixing",
-        "Implementing new pages",
-        "Improving existing pages"
+        "Creating \"User Dashboard\" page",
+        "Writing minor API endpoints for \"User Dashboard\" data",
+        "Migrating \"Pricing\" page from Vanilla to Vue",
+        "Fixing various bugs in browser builder app",
+        "Attending daily standup meetings"
       ],
       "technologies": [
         "Vue.js",
@@ -59,27 +67,47 @@
       "endDate": "February 2022"
     }
   ],
+  "projects": [
+    {
+      "name": "Advent of Code",
+      "link": "https://github.com/Fermento99/advent-of-code",
+      "description": "Repository storing my solutions for \"Advent of Code\". Written using Python, C# and Go."
+    },
+    {
+      "name": "Claymore Roomba",
+      "link": "https://github.com/Fermento99/claymore-roomba",
+      "description": "Web browser implementation of \"Minesweeper\" game, build to explore automated solver. Written using React."
+    },
+    {
+      "name": "Interval Timer",
+      "link": "https://github.com/Fermento99/interval-timer",
+      "description": "A web app build for customizing tabata circuit training. Written using Vue."
+    }
+  ],
   "technologies": [
     "TypeScript",
+    "JavaScript",
     "React",
+    "Vue",
     "Material UI",
     "Styled Components",
-    "jQuery",
-    "Git",
-    "Vue",
     "Tailwind",
+    "SASS",
+    "jQuery",
+    "Redux",
     "Node.js",
+    "Git",
     "MySQL",
     "MongoDB",
-    "Redux",
-    "SASS",
     "Python",
-    "Java",
+    "Go",
     "C#",
+    "Java",
     "Kotlin"
   ],
   "software": [
     "Jira",
+    "Figma",
     "VSCode",
     "WebStorm",
     "Linux",
