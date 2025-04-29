@@ -2,7 +2,7 @@
   "name": "Paweł Kajanek",
   "workTitle": "Frontend Developer",
   "email": "pk.pawlak99@gmail.com",
-  "summary": "Young guy with passion for live music, sailing, board games and logic puzzles",
+  "summary": "I'm a young frontend developer with 3 years of working experience. In my previous jobs I took part in creating new features as well as migrating and fixing the existing ones using React and Vue. The projects I worked on were managed mainly with agile methodologies. In the future I aim to continue developing my frontend skills, but also to start learning backend skills and technologies and become more of a Fullstack Developer.",
   "profiles": [
     {
       "name": "Github",
@@ -32,7 +32,6 @@
         "React.js",
         "Material UI",
         "Highcharts",
-        "CSS",
         "jQuery",
         "Vue",
         "Cypress"
