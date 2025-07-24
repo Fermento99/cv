@@ -2,7 +2,7 @@
   "name": "Paweł Kajanek",
   "workTitle": "Frontend Developer",
   "email": "pk.pawlak99@gmail.com",
-  "summary": "I'm a young frontend developer with 3 years of working experience. In my previous jobs I took part in creating new features as well as migrating and fixing the existing ones using React and Vue. The projects I worked on were managed mainly with agile methodologies. In the future I aim to continue developing my frontend skills, but also to start learning backend skills and technologies and become more of a Fullstack Developer.",
+  "summary": "I'm a young frontend developer with 3 years of working experience. In my previous jobs I took part in creating new features as well as migrating and fixing the existing ones using React and Vue. The projects I worked on were managed mainly with agile methodologies. In the future I aim to continue developing my frontend skills, but also to start learning backend skills and technologies, and become more of a Fullstack Developer.",
   "profiles": [
     {
       "name": "Github",
@@ -67,6 +67,11 @@
     }
   ],
   "projects": [
+    {
+      "name": "Party Finder 2",
+      "link": "https://github.com/Fermento99/party-finder-2",
+      "description": "App for finding common bands that play at festivals among small group of friends. Written using Django and React."
+    },
     {
       "name": "Advent of Code",
       "link": "https://github.com/Fermento99/advent-of-code",

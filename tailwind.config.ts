@@ -27,7 +27,7 @@ const config: Config = {
           dark: '#333',
         },
         chips: {
-          base: '#785478',
+          base: '#3A5A40',
           text: '#fff',
         }
       },
