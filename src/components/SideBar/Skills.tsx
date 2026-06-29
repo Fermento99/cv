@@ -15,7 +15,7 @@ export default function Skills () {
 
 function SkillCategory({ categoryName, list }: { categoryName: string, list: string[] }) {
   return (
-    <article className="flex flex-col flex-shrink flex-grow min-w-40">
+    <article className="flex flex-col shrink grow min-w-40">
       <h3 className="text-titleText-light mx-auto">{categoryName}</h3>
       <ul>
         {list.map((item, index) => (

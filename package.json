@@ -2,28 +2,30 @@
   "name": "cv",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "predeploy": "next build",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d out -m\"deloyment\" --no-history"
   },
   "dependencies": {
-    "next": "14.2.4",
-    "react": "^18",
-    "react-dom": "^18"
+    "@tailwindcss/vite": "^4.3.1",
+    "oxlint": "^1.71.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.3.1"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.4",
+    "@types/node": "^26.0.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
     "gh-pages": "^6.3.0",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "oxc": "^1.0.1",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.0"
   }
 }

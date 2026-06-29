@@ -1,13 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=League+Spartan:wght@100..900&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@custom-variant print (@media print);
+@custom-variant screen (@media screen);
+
+@theme {
+    --color-background-sidePanel: #3A5A40;
+    --color-background-main: #DAD7CD;
+    --color-separator-light: #E0E0E0;
+    --color-separator-dark: #2F2B23;
+    --color-titleText-light: #EBFAFF;
+    --color-titleText-dark: #222;
+    --color-listItem-light: #EBFAFF;
+    --color-listItem-dark: #333;
+    --color-chips-base: #3A5A40;
+    --color-chips-text: #fff;
+
+    --font-regular: 'League Spartan', sans-serif;
+    --font-techMono: 'Inconsolata', monospace;
+}
 
 @layer base {
     * {
         @apply relative box-border;
     }
+
     body {
         @apply font-regular;
     }
