@@ -1,7 +1,7 @@
-import MainSection from "@/components/MainSection";
-import SideBar from "@/components/SideBar";
+import MainSection from "./components/MainSection";
+import SideBar from "./components/SideBar";
 
-import '@/globals.css';
+import './globals.css';
 
 export default function Home() {
   return (

@@ -1,3 +1,3 @@
-import MainSection from "@/components/MainSection/MainSection";
+import MainSection from "./MainSection";
 
 export default MainSection;

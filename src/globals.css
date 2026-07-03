@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=League+Spartan:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=League+Spartan:wght@100..900&display=swap");
 
 @import "tailwindcss";
 
@@ -6,55 +6,55 @@
 @custom-variant screen (@media screen);
 
 @theme {
-    --color-background-sidePanel: #3A5A40;
-    --color-background-main: #DAD7CD;
-    --color-separator-light: #E0E0E0;
-    --color-separator-dark: #2F2B23;
-    --color-titleText-light: #EBFAFF;
-    --color-titleText-dark: #222;
-    --color-listItem-light: #EBFAFF;
-    --color-listItem-dark: #333;
-    --color-chips-base: #3A5A40;
-    --color-chips-text: #fff;
+  --color-background-sidePanel: #3a5a40;
+  --color-background-main: #dad7cd;
+  --color-separator-light: #e0e0e0;
+  --color-separator-dark: #2f2b23;
+  --color-titleText-light: #ebfaff;
+  --color-titleText-dark: #222;
+  --color-listItem-light: #ebfaff;
+  --color-listItem-dark: #333;
+  --color-chips-base: #3a5a40;
+  --color-chips-text: #fff;
 
-    --font-regular: 'League Spartan', sans-serif;
-    --font-techMono: 'Inconsolata', monospace;
+  --font-regular: "League Spartan", sans-serif;
+  --font-techMono: "Inconsolata", monospace;
 }
 
 @layer base {
-    * {
-        @apply relative box-border;
-    }
+  * {
+    @apply relative box-border;
+  }
 
-    body {
-        @apply font-regular;
-    }
+  body {
+    @apply font-regular;
+  }
 
-    li {
-        @apply list-disc font-techMono;
-    }
+  li {
+    @apply list-disc font-techMono;
+  }
 
-    ul {
-        @apply pl-4;
-    }
+  ul {
+    @apply pl-4;
+  }
 
-    h2 {
-        @apply font-bold text-2xl ml-6 mb-2;
-    }
+  h2 {
+    @apply font-bold text-2xl ml-6 mb-2;
+  }
 
-    h3 {
-        @apply text-xl;
-    }
+  h3 {
+    @apply text-xl;
+  }
 
-    article {
-        @apply mb-4;
-    }
+  article {
+    @apply mb-4;
+  }
 
-    section {
-        @apply my-4 print:break-inside-avoid;
-    }
+  section {
+    @apply my-4 print:break-inside-avoid;
+  }
 
-    hr {
-        @apply border-separator-dark -mx-4;
-    }
+  hr {
+    @apply border-separator-dark -mx-4;
+  }
 }

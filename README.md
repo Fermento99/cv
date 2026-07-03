@@ -1,4 +1,5 @@
 # CV
+
 Project for my Curriculum Vita / Resume
 
 Written using Next.js with Tailwind

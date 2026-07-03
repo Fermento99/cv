@@ -1,10 +1,11 @@
-import resume from '@/resume.json';
+import { useContext } from 'react';
+import { ResumeContext } from '../../ResumeContext';
 
-export default function Contact () {
+export default function Contact() {
   const {
     email,
     profiles,
-  } = resume;
+  } = useContext(ResumeContext);;
 
   return (
     <section className="flex flex-col mt-1">

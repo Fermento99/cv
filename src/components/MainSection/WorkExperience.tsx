@@ -1,9 +1,10 @@
-import resume from '@/resume.json';
-import Period from "@/components/Period";
+import { useContext } from "react";
+import Period from "../Period";
+import { ResumeContext } from "../../ResumeContext";
 
 
 export default function WorkExperience() {
-  const { work } = resume;
+  const { work } = useContext(ResumeContext);;
 
   return (
     <section>
@@ -35,10 +36,10 @@ export default function WorkExperience() {
   );
 };
 
-function Chip({ name } : { name: string }) {
-    return (
-        <div className="bg-chips-base rounded-md text-chips-text px-2 py-0.5 font-techMono text-sm">
-            {name}
-        </div>
-    );
+function Chip({ name }: { name: string }) {
+  return (
+    <div className="bg-chips-base rounded-md text-chips-text px-2 py-0.5 font-techMono text-sm">
+      {name}
+    </div>
+  );
 }

@@ -1,9 +1,11 @@
-import React from "react";
-import resume from '@/resume.json';
-import Period from "@/components/Period";
+import { useContext, type ReactNode } from "react";
+
+import { ResumeContext } from "../../ResumeContext";
+import Period from "../Period";
 
 export default function Education() {
-  const { education } = resume;
+  const { education } = useContext(ResumeContext);
+
   return (
     <section>
       <h2>Education</h2>
@@ -20,6 +22,8 @@ export default function Education() {
   );
 };
 
-function Italics ({children}: { children: React.ReactNode }) {
+interface ItalicsProps { children: ReactNode }
+
+function Italics({ children }: ItalicsProps) {
   return <span className="font-medium">{children}</span>;
 }

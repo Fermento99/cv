@@ -1,11 +1,12 @@
-import resume from '@/resume.json';
+import { useContext } from 'react';
+import { ResumeContext } from '../../ResumeContext';
 
 export default function Summary() {
   const {
     name,
     workTitle,
     summary,
-  } = resume;
+  } = useContext(ResumeContext);;
 
   return (
     <section>

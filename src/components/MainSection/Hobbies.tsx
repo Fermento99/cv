@@ -1,7 +1,9 @@
-import resume from '@/resume.json';
+import { useContext } from "react";
+import { ResumeContext } from "../../ResumeContext";
+
 
 export default function Hobbies() {
-  const { hobbies } = resume;
+  const { hobbies } = useContext(ResumeContext);;
 
   return (
     <section>

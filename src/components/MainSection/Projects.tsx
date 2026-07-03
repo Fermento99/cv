@@ -1,8 +1,9 @@
-import resume from '@/resume.json';
+import { useContext } from "react";
+import { ResumeContext } from "../../ResumeContext";
 
 
 export default function Projects() {
-  const { projects } = resume;
+  const { projects } = useContext(ResumeContext);;
 
   return (
     <section>

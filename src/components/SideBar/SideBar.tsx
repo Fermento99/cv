@@ -1,5 +1,5 @@
-import Contact from "@/components/SideBar/Contact";
-import Skills from "@/components/SideBar/Skills";
+import Contact from "./Contact";
+import Skills from "./Skills";
 
 export default function SideBar() {
   return (
