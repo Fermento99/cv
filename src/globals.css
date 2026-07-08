@@ -47,11 +47,11 @@
   }
 
   article {
-    @apply mb-4;
+    @apply mb-4 print:break-inside-avoid;
   }
 
   section {
-    @apply my-4 print:break-inside-avoid;
+    @apply my-4;
   }
 
   hr {
