@@ -28,10 +28,10 @@ export default function WorkExperience() {
               <li key={listItemIndex}>{responsibility}</li>
             ))}
           </ul>
-          <h4 className="mt-2">
+          <h4 className="mt-2 mb-1">
             Highlighted technologies:
           </h4>
-          <div className="flex flex-row flex-wrap gap-2 pb-2">
+          <div className="flex flex-row flex-wrap gap-2 pb-2 ml-4">
             {item.technologies.map((technology, listItemIndex) => (
               <Chip key={listItemIndex} name={technology} />
             ))}
