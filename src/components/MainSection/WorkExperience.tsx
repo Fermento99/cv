@@ -12,19 +12,25 @@ export default function WorkExperience() {
       {work.map((item, index) => (
         <article key={index}>
           <h3>{item.position}</h3>
-          <p className="font-medium -mt-1">{item.organization}</p>
+          <h4 className="font-medium -mt-1">{item.organization}</h4>
           <Period startDate={item.startDate} endDate={item.endDate} />
-          <p className="mt-2">
-            Responsibilities:
+          <h4 className="mt-2">
+            Description:
+          </h4>
+          <p className="ml-4 font-light">
+            {item.description}
           </p>
+          <h4 className="mt-2">
+            Responsibilities:
+          </h4>
           <ul className="ml-4">
             {item.responsibilities.map((responsibility, listItemIndex) => (
               <li key={listItemIndex}>{responsibility}</li>
             ))}
           </ul>
-          <p className="my-1">
+          <h4 className="mt-2">
             Highlighted technologies:
-          </p>
+          </h4>
           <div className="flex flex-row flex-wrap gap-2 pb-2">
             {item.technologies.map((technology, listItemIndex) => (
               <Chip key={listItemIndex} name={technology} />

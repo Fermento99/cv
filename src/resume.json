@@ -19,22 +19,29 @@
       "position": "Frontend Developer",
       "startDate": "May 2022",
       "endDate": "till now",
+      "description": "During my work with STX Next I've been involved in several projects for international clients. Most of them required me to work as a solo frontend developer with a broad spectrum of responsibilities spanning from refining tasks and creating roadmaps, to developing and debugging the application.",
       "responsibilities": [
-        "Creating form pages with input validation (FE and BE)",
-        "Creating various widgets for data display, preference customization and query applying",
-        "Creating automated tests for UI components",
-        "Fetching and parsing data from API endpoints",
+        "Reviewing issues and recommending possible solutions",
+        "Assessing workload and creating development plans",
+        "Creating various widgets for data display, preference customization and query applying, that match designs",
+        "Utilizing REST API endpoints",
         "Migrating widgets from Backbone.js to React.js",
+        "Creating automated tests for UI components",
+        "Introducing a new library and adapting its components in an existing project",
+        "Identifying areas for improvements and preforming app-wide refactors",
         "Fixing various frontend bugs",
-        "Attending daily standup, retro and review meetings held in English"
+        "Reviewing peer written code",
+        "Developing products with agile methodologies"
       ],
       "technologies": [
         "React.js",
-        "Material UI",
-        "Highcharts",
-        "jQuery",
         "Vue",
-        "Cypress"
+        "Material UI",
+        "Ant Design",
+        "Mantine",
+        "Highcharts",
+        "Cypress",
+        "Playwright"
       ]
     },
     {
@@ -42,18 +49,16 @@
       "position": "Frontend Developer/Intern",
       "startDate": "September 2021",
       "endDate": "November 2021",
+      "description": "At ULAN Software I've been working on a project called BOWWE, which is a tool for creating professional business sites, resumes and portfolios. The app uses drag-and-drop interface and contains a wide range of configurable widgets, making it beginner friendly. Additionally it takes care of responsiveness, translations, SEO and has marketing tool integrations.",
       "responsibilities": [
-        "Creating \"User Dashboard\" page",
-        "Writing minor API endpoints for \"User Dashboard\" data",
+        "Creating \"User Dashboard\" page, which displayed user's social profile and portfolio",
+        "Writing minor API endpoints providing data for \"User Dashboard\" components",
         "Migrating \"Pricing\" page from Vanilla to Vue",
-        "Fixing various bugs in browser builder app",
-        "Attending daily standup meetings"
+        "Fixing various frontend bugs",
+        "Reviewing peer written code",
+        "Developing the product with an agile methodology"
       ],
-      "technologies": [
-        "Vue.js",
-        "jQuery",
-        "PHP"
-      ]
+      "technologies": ["Vue.js", "jQuery", "PHP"]
     }
   ],
   "education": [
@@ -88,34 +93,14 @@
       "description": "A web app build for customizing tabata circuit training. Written using Vue."
     }
   ],
-  "technologies": [
-    "TypeScript",
-    "JavaScript",
-    "React",
-    "Vue",
-    "Material UI",
-    "Styled Components",
-    "Tailwind",
-    "SASS",
-    "jQuery",
-    "Redux",
-    "Node.js",
-    "Git",
-    "MySQL",
-    "MongoDB",
-    "Python",
-    "Go",
-    "C#",
-    "Java",
-    "Kotlin"
+  "programmingLanguages": ["TypeScript", "JavaScript", "Python", "Go", "C#"],
+  "frameworks": ["React", "Vue", "Material UI", "Ant Design", "Tailwind", "Django"],
+  "databases": ["MySQL", "MongoDB"],
+  "languages": [
+    { "name": "Polish", "level": "Native" },
+    { "name": "English", "level": "C1" }
   ],
-  "software": [
-    "Jira",
-    "Figma",
-    "VS Code",
-    "Linux",
-    "Windows"
-  ],
+  "software": ["Jira", "Figma", "VS Code", "Linux", "Windows", "Git"],
   "hobbies": [
     "Live music",
     "Board games",
