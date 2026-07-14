@@ -2,7 +2,7 @@
   "name": "Paweł Kajanek",
   "workTitle": "Frontend Developer",
   "email": "pk.pawlak99@gmail.com",
-  "summary": "I'm a frontend developer with 4+ years of experience who is passionate about creating useful tools. Through my career I developed strong analytical skills and my appetite for learning new technologies has only grown. That transfers to my private life, as in my free time I enjoy solving puzzles and building fullstack apps for my own daily usage. In the future I aim to become more of a fullstack developer professionally as well.",
+  "summary": "I'm a frontend developer with <b>4+ years</b> of experience who is passionate about creating useful tools. Through my career I developed strong analytical skills and my appetite for learning new technologies has only grown. That transfers to my private life, as in my free time I enjoy solving puzzles and building fullstack apps for my own daily usage. In the future I aim to become more of a fullstack developer professionally as well.",
   "profiles": [
     {
       "name": "Github",
@@ -46,7 +46,7 @@
     },
     {
       "organization": "ULAN Software",
-      "position": "Frontend Developer/Intern",
+      "position": "Frontend Developer - Intern",
       "startDate": "September 2021",
       "endDate": "November 2021",
       "description": "At ULAN Software I've been working on a project called BOWWE, which is a tool for creating professional business sites, resumes and portfolios. The app uses drag-and-drop interface and contains a wide range of configurable widgets, making it beginner friendly. Additionally it takes care of responsiveness, translations, SEO and has marketing tool integrations.",
@@ -100,13 +100,13 @@
     { "name": "Polish", "level": "Native" },
     { "name": "English", "level": "C1" }
   ],
-  "software": ["Jira", "Figma", "VS Code", "Linux", "Windows", "Git"],
+  "software": ["Jira", "Figma", "VS Code", "Linux", "Windows", "Git", "Copilot"],
   "hobbies": [
     "Live music",
     "Board games",
     "Sailing",
     "Logic puzzles",
     "Skateboarding",
-    "Fantasy/Thriller/Detective Books"
+    "Fantasy / Thriller / Detective Books"
   ]
 }

@@ -6,7 +6,7 @@ export default function Projects() {
   const { projects } = useContext(ResumeContext);;
 
   return (
-    <section>
+    <section className="flex flex-col gap-2">
       <h2>Private Projects</h2>
       {projects.map((project, index) => (
         <article key={index}>

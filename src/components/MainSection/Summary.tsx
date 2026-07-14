@@ -12,7 +12,7 @@ export default function Summary() {
     <section>
       <h1 className="text-4xl font-extrabold">{name}</h1>
       <h1 className="italic -mt-1">{workTitle}</h1>
-      <p className="mt-2">{summary}</p>
+      <p className="mt-2" dangerouslySetInnerHTML={{ __html: summary }}></p>
     </section>
   );
 };

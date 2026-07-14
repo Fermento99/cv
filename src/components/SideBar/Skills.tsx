@@ -1,21 +1,7 @@
 
 import { ResumeContext } from '../../ResumeContext';
-import { useContext, type ReactNode } from 'react';
-
-interface GenericListProps {
-  categoryName: string;
-  children: ReactNode;
-}
-
-function GenericList({ children, categoryName }: GenericListProps) {
-  return (
-    <article className="flex flex-col shrink grow min-w-40">
-      <h3 className="text-titleText-light mx-auto font-bold text-base">{categoryName}</h3>
-      <ul>
-        {children}
-      </ul>
-    </article>)
-}
+import { useContext } from 'react';
+import { GenericList } from './GenericList';
 
 interface SkillCategoryProps { categoryName: string, list: string[] }
 
@@ -23,7 +9,7 @@ function SkillCategory({ categoryName, list }: SkillCategoryProps) {
   return (
     <GenericList categoryName={categoryName}>
       {list.map((item, index) => (
-        <li key={index} className="text-listItem-light">
+        <li key={index}>
           {item}
         </li>
       ))}
@@ -37,7 +23,7 @@ function LanguageList() {
   return (
     <GenericList categoryName="Languages">
       {languages.map((item, index) => (
-        <li key={index} className="text-listItem-light">
+        <li key={index}>
           {item.name} ({item.level})
         </li>
       ))}
@@ -54,11 +40,12 @@ export default function Skills() {
   } = useContext(ResumeContext);
 
   return (
-    <section className="flex flex-row md:flex-col flex-wrap gap-4">
+    <section className="flex flex-col gap-4">
       <SkillCategory categoryName="Programming Languages" list={programmingLanguages} />
       <SkillCategory categoryName="Frameworks & Libraries" list={frameworks} />
       <SkillCategory categoryName="Databases" list={databases} />
       <SkillCategory categoryName="Software" list={software} />
+      <div className="break-before-page text-background-sidePanel m-0" >AI</div>
       <LanguageList />
     </section>
   )

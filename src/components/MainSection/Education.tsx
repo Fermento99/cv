@@ -1,7 +1,7 @@
 import { useContext, type ReactNode } from "react";
 
 import { ResumeContext } from "../../ResumeContext";
-import Period from "../Period";
+import Period from "./Period";
 
 export default function Education() {
   const { education } = useContext(ResumeContext);

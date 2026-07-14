@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import { ResumeContext } from '../../ResumeContext';
+import Photo from './Photo';
 
 export default function Contact() {
   const {
@@ -8,9 +9,14 @@ export default function Contact() {
   } = useContext(ResumeContext);;
 
   return (
-    <section className="flex flex-col mt-1">
-      <h2 className="text-titleText-light mx-auto">Contact</h2>
-      <p className={elementClassnames}><a href={`mailto:${email}`} target="_blank">{email}</a></p>
+    <section>
+      <Photo />
+      <h2>Contact</h2>
+      <p className={elementClassnames}>
+        <a href={`mailto:${email}`} target="_blank">
+          {email}
+        </a>
+      </p>
       {profiles.map((profile, index) => (
         <p key={index} className={elementClassnames}>
           <a href={profile.url} target="_blank">
@@ -22,4 +28,4 @@ export default function Contact() {
   )
 };
 
-const elementClassnames = 'text-listItem-light font-medium text-center md:text-start';
+const elementClassnames = 'text-listItem-light text-center md:text-start';
