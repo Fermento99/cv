@@ -46,7 +46,6 @@ export default function WorkExperience() {
               </div>
             </article>
           </article>
-          {index === 0 && (<div className="break-before-page text-background-main" >AI</div>)}
         </>
       ))}
     </section>

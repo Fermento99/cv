@@ -45,7 +45,6 @@ export default function Skills() {
       <SkillCategory categoryName="Frameworks & Libraries" list={frameworks} />
       <SkillCategory categoryName="Databases" list={databases} />
       <SkillCategory categoryName="Software" list={software} />
-      <div className="break-before-page text-background-sidePanel m-0" >AI</div>
       <LanguageList />
     </section>
   )
