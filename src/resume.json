@@ -40,6 +40,7 @@
         "Ant Design",
         "Mantine",
         "Highcharts",
+        "ReactQuery",
         "Cypress",
         "Playwright"
       ]
@@ -94,13 +95,13 @@
     }
   ],
   "programmingLanguages": ["TypeScript", "JavaScript", "Python", "Go", "C#"],
-  "frameworks": ["React", "Vue", "Material UI", "Ant Design", "Tailwind", "Django"],
+  "frameworks": ["React", "Vue", "Material UI", "Ant Design", "Tailwind", "ReactQuery", "Django"],
   "databases": ["MySQL", "MongoDB"],
   "languages": [
     { "name": "Polish", "level": "Native" },
     { "name": "English", "level": "C1" }
   ],
-  "software": ["Jira", "Figma", "VS Code", "Linux", "Windows", "Git", "Copilot"],
+  "software": ["Jira", "Figma", "VS Code", "Linux", "Windows", "Git", "Cursor", "Copilot"],
   "hobbies": [
     "Live music",
     "Board games",
