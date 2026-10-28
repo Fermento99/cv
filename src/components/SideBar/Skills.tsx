@@ -1,43 +1,38 @@
+import { ResumeContext } from "../../ResumeContext";
+import { useContext } from "react";
+import { GenericList } from "./GenericList";
 
-import { ResumeContext } from '../../ResumeContext';
-import { useContext } from 'react';
-import { GenericList } from './GenericList';
-
-interface SkillCategoryProps { categoryName: string, list: string[] }
+interface SkillCategoryProps {
+  categoryName: string;
+  list: string[];
+}
 
 function SkillCategory({ categoryName, list }: SkillCategoryProps) {
   return (
     <GenericList categoryName={categoryName}>
       {list.map((item, index) => (
-        <li key={index}>
-          {item}
-        </li>
+        <li key={index}>{item}</li>
       ))}
     </GenericList>
-  )
+  );
 }
 
 function LanguageList() {
   const { languages } = useContext(ResumeContext);
 
   return (
-    <GenericList categoryName="Languages">
+    <GenericList categoryName="Languages" className="print:pt-5">
       {languages.map((item, index) => (
         <li key={index}>
           {item.name} ({item.level})
         </li>
       ))}
     </GenericList>
-  )
+  );
 }
 
 export default function Skills() {
-  const {
-    programmingLanguages,
-    frameworks,
-    databases,
-    software
-  } = useContext(ResumeContext);
+  const { programmingLanguages, frameworks, databases, software } = useContext(ResumeContext);
 
   return (
     <section className="flex flex-col gap-4">
@@ -47,5 +42,5 @@ export default function Skills() {
       <SkillCategory categoryName="Software" list={software} />
       <LanguageList />
     </section>
-  )
-};
+  );
+}

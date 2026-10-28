@@ -3,7 +3,7 @@ import { ResumeContext } from "../../ResumeContext";
 import Photo from "./Photo";
 
 export default function Contact() {
-  const { email, profiles } = useContext(ResumeContext);
+  const { email, phoneNumber, profiles } = useContext(ResumeContext);
 
   return (
     <section>
@@ -14,6 +14,7 @@ export default function Contact() {
           {email}
         </a>
       </p>
+      <p className={elementClassnames}>Tel: {phoneNumber}</p>
       {profiles.map((profile, index) => (
         <p key={index} className={elementClassnames}>
           <a href={profile.url} target="_blank">

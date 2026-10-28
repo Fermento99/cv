@@ -37,6 +37,7 @@ export interface ResumeType {
   name: string;
   workTitle: string;
   email: string;
+  phoneNumber: string;
   summary: string;
   profiles: Profile[];
   work: Workplace[];
